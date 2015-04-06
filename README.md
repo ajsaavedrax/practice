@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html-starter
 ============
 
@@ -34,3 +35,6 @@ Available Grunt commands:
 ####grunt
 
 ```Use during development. Turns on BrowserSync for live reloading, adds sass as a watch task```
+=======
+# practice
+>>>>>>> 6663598cefc5409d26b6b9b44f8ce607b12b9214
