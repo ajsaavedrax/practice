@@ -6655,6 +6655,16 @@ The `sprites` mixin generates identical output to the CSS template
 @include sprites($spritesheet-sprites);
 */
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  background: red; }
+
+.nav > li > a {
+  padding: 10px 40px; }
+
+.jumbotron {
+  margin-bottom: 0; }
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius: 0px; }
 
 /*# sourceMappingURL=styles.css.map */

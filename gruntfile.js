@@ -1,7 +1,7 @@
 var bootstrap_path = 'bower_components/bootstrap-sass-official/assets/',
     bootstrap_csspath = bootstrap_path + 'stylesheets',
     bootstrap_jspath = bootstrap_path + 'javascripts/bootstrap/',
-    proxyUrl = "projects.io/sandbox/html-starter"; // important: change this to your server's url or 'false' for no proxy!
+    proxyUrl = "false"; // important: change this to your server's url or 'false' for no proxy!
 
 module.exports = function(grunt) {
     grunt.initConfig({

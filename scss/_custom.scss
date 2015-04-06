@@ -1,7 +1,15 @@
 // Global styles
-
+@include sprites($spritesheet-sprites);
 body {
 	font-family: 'Open Sans', sans-serif;
+	background: red;
 }
-
-@include sprites($spritesheet-sprites);
+.nav > li > a {
+  padding: 10px 40px;
+}
+.jumbotron {
+	margin-bottom: 0;
+}	
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius: 0px;
+}
