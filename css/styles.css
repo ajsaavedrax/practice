@@ -6654,7 +6654,79 @@ The `sprites` mixin generates identical output to the CSS template
 
 @include sprites($spritesheet-sprites);
 */
+.icon-bars {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px 0px;
+  width: 128px;
+  height: 128px; }
+
+.icon-checkmark {
+  background-image: url(../images/spritesheet.png);
+  background-position: -38px -256px;
+  width: 12px;
+  height: 12px; }
+
+.icon-connection {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px -256px;
+  width: 14px;
+  height: 12px; }
+
+.icon-film {
+  background-image: url(../images/spritesheet.png);
+  background-position: -128px -128px;
+  width: 128px;
+  height: 128px; }
+
+.icon-notebook {
+  background-image: url(../images/spritesheet.png);
+  background-position: -256px 0px;
+  width: 128px;
+  height: 128px; }
+
+.icon-ok {
+  background-image: url(../images/spritesheet.png);
+  background-position: -50px -256px;
+  width: 12px;
+  height: 12px; }
+
+.icon-plus-sign {
+  background-image: url(../images/spritesheet.png);
+  background-position: -14px -256px;
+  width: 12px;
+  height: 12px; }
+
+.icon-plus {
+  background-image: url(../images/spritesheet.png);
+  background-position: -26px -256px;
+  width: 12px;
+  height: 12px; }
+
+.icon-stats {
+  background-image: url(../images/spritesheet.png);
+  background-position: -256px -128px;
+  width: 128px;
+  height: 128px; }
+
+.icon-tag {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px -128px;
+  width: 128px;
+  height: 128px; }
+
+.icon-target {
+  background-image: url(../images/spritesheet.png);
+  background-position: -128px 0px;
+  width: 128px;
+  height: 128px; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
+
+.aboutimage {
+  overflow: hidden;
+  border: 3px solid #777;
+  border-radius: 3px;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
