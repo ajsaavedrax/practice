@@ -1,8 +1,14 @@
 // Global styles
+@include sprites($spritesheet-sprites);
 
 body {
 	font-family: 'Open Sans', sans-serif;
-  background: #eee;
 }
 
-@include sprites($spritesheet-sprites);
+//added by Jason
+.aboutimage {
+  overflow: hidden;
+  border:3px solid #777;
+  border-radius: 3px;
+  margin-top: 15px;
+}
